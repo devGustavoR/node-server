@@ -8,19 +8,23 @@
 // server.listen(3333)
 
 import { fastify } from 'fastify'
+import { DatabaseMemory } from './database-memory.js'
 
 const server = fastify()
+const database = new DatabaseMemory
 
-server.get('/', () =>{
-  return 'Hello World'
-})
+server.post('/videos', (request, reply) =>{
+  const body = request.body
 
-server.get('/hello', () =>{
-  return 'Hello, World'
-})
+  console.log(body)
 
-server.get('/wuors', () =>{
-  return 'Hello Wuors'
+  database.create({
+    title: 'Video01',
+    description: "Esse é o video 01",
+    duration:100,
+  })
+
+  return reply.status(201).send()
 })
 
 server.listen({
