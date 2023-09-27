@@ -16,7 +16,7 @@ export class DatabaseMemory {
       })
       .filter(video => {
         if (search) {
-          return video.title.includes(search);
+          return video.title.includes(search)
         }
 
         return true;
