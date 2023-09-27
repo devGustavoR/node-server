@@ -25,8 +25,10 @@ server.post('/videos', (request, reply) =>{
   return reply.status(201).send()
 })
 
-server.get('/videos', () =>{
-  const videos = database.list()
+server.get('/videos', (request) =>{
+  const search = request.query.search
+  
+  const videos = database.list(search)
 
   return videos
 })
@@ -41,6 +43,14 @@ server.put('/videos/:id', (request,reply) => {
     description,
     duration,
   });
+
+  return reply.status(204).send()
+})
+
+server.delete('/videos/:id', (request, reply) => {
+  const videoID = request.params.id
+
+  database.delete(videoID)
 
   return reply.status(204).send()
 })
