@@ -6,11 +6,11 @@
   <a href="https://node-do-zero-vkxp.onrender.com" target="_blank">Estudos Node 🔗  </a>
 </h1>
 <div align="center" margin-right=230>
-<a href="" color="red">EN</a>
+<a href="https://github.com/devGustavoR/node-server/blob/main/README-en.md" color="red">EN</a>
 </div>
 <div align="center">
 
-<a href="">PT-BR</a>
+<a href="https://github.com/devGustavoR/node-server/blob/main/README.md">PT-BR</a>
 </div>
 
 ### 📖 Sobre
