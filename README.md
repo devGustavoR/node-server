@@ -14,7 +14,7 @@
 </div>
 
 ### 📖 Sobre
-Este servidor Node.js foi desenvolvido como parte de uma empolgante aula ministrada pela Rocketseat. Durante essa experiência empolgante, aprendemos a criar um servidor robusto usando as melhores práticas do Node.js, com Fastify e Postgres. 🚀
+Este servidor Node.js foi desenvolvido como parte de uma empolgante aula ministrada pela Rocketseat. Durante essa experiência empolgante, aprendemos a criar um servidor robusto usando as melhores práticas do Node.js, com Fastify e Postgres. 
 
 ### 🚀 Tecnologias utilizadas
 O projeto foi desenvolvido utilizando as seguintes tecnologias
