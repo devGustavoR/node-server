@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-vkxp.onrender.com/videos
 Content-type: application/json
 
 {
@@ -8,10 +8,10 @@ Content-type: application/json
 }
 
 ###
-GET http://localhost:3333/videos?search=node
+GET https://node-do-zero-vkxp.onrender.com/videos
 
 ### 
-PUT http://localhost:3333/videos/fdb2f82b-1e30-4b59-8b3b-4fa48c0df501
+PUT https://node-do-zero-vkxp.onrender.com/videos/fdb2f82b-1e30-4b59-8b3b-4fa48c0df501
 Content-type: application/json
 
 {
